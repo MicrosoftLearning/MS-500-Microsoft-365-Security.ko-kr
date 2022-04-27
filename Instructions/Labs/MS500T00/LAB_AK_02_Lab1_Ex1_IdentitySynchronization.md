@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 23bb1e34a22b46b2f8ee513ef7a6108e044e3d0b
-ms.sourcegitcommit: e892df78114aa3ac3094f9c5ed7097ca5559267a
+ms.openlocfilehash: 02ddbc057b4405725c6450d032e55dbc78caeb7e
+ms.sourcegitcommit: 45fca5e9e4dc6e398302227c4c04f451e025d9cb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "139262468"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "143961336"
 ---
 # <a name="module-2---lab-1---exercise-1---setting-up-your-organization-for-identity-synchronization"></a>모듈 2 - 랩 1 - 연습 1 - 조직의 ID 동기화 설정 
 
@@ -40,7 +40,7 @@ ms.locfileid: "139262468"
 2.  사용 조건과 개인정보취급방침에 동의합니다.
 3.  **빠른 설정 사용** 을 클릭합니다.   
 4.  **Azure AD에 연결** 화면에서 **holly@M365xZZZZZZ.onmicrosoft.com** 의 Office 365 관리자 사용자 이름과 암호 `Pa55w.rd`를 입력하고 다음을 클릭합니다.   
-5.  **AD DS** 화면에서 로그인 창이 팝업되면 도메인 관리자 **Admin@M365xZZZZZZ.onmicrosoft.com** 과 암호 `ycYoe&L20a%%`를 입력하고 **다음** 을 선택합니다.   
+5.  **Connect to AD DS** 화면에서 로그인 창이 팝업되면 도메인 관리자 **Admin@M365xZZZZZZ.onmicrosoft.com** 과 **랩 호스팅 공급자가 제공한** 암호를 입력하고 **다음** 을 선택합니다.   
 6.  **AD DS에 연결** 화면에서 도메인 관리자 **ADATUM\Administrator** 와 암호 `Pa55w.rd`를 입력하고 **다음** 을 선택합니다.
 7.  **모든 UPN 접미사를 확인된 도메인에 일치시키지 않고 계속** 체크박스를 선택합니다. Azure AD 로그인 구성 화면에서 **다음** 을 선택합니다.   
 8.  **구성 준비 완료** 화면에서 **구성이 완료되면 동기화 프로세스를 시작합니다.** 체크박스에 선택 표시가 있는지 확인하고 **설치** 를 선택합니다.   
@@ -55,7 +55,7 @@ ms.locfileid: "139262468"
 2.  다음 자격 증명을 사용하여 Holly Dickson으로 로그인합니다.  사용자 이름: **holly@M365xZZZZZZ.onmicrosoft.com** , 암호: `Pa55w.rd`  
 3.  왼쪽 탐색 영역에서 **사용자** 아이콘을 선택하고 **활성 사용자** 를 선택합니다. 
 4.  이제 로컬 Active Directory에서 동기화된 사용자 수를 확인할 수 있습니다.  새로 고침 단추를 클릭하여 페이지의 데이터를 업데이트해야 할 수도 있습니다.  
-5.  다음 사용자를 편집하여 Microsoft 365 E5 라이선스와 Enterprise Mobility + Security E5 라이선스를 **모두** 제거합니다. -Debra Berger -Irvin Sayers -Johanna Lorenz -Lidia Hallowey -Pradeep Gupta **참고**  M365 구독이 프로비저닝될 때 사용 가능한 모든 라이선스가 할당되었습니다. 이 랩과 향후 랩에 몇 개의 라이선스가 필요하므로 라이선스가 필요하지 않은 몇몇 사용자에 대한 라이선스 할당을 제거할 수 있습니다.
+5.  **이러한 사용자가 존재하는 경우에만 완료** 다음 사용자를 편집하여 Microsoft 365 E5 라이선스와 Enterprise Mobility + Security E5 라이선스를 **모두** 제거합니다. -Debra Berger -Irvin Sayers -Johanna Lorenz -Lidia Hallowey -Pradeep Gupta **참고** M365 구독이 프로비저닝될 때 사용 가능한 모든 라이선스가 할당될 수 있습니다. 이 랩과 향후 랩에 몇 개의 라이선스가 필요하므로 라이선스가 필요하지 않은 몇몇 사용자에 대한 라이선스 할당을 제거할 수 있습니다.
 6.  Abbie Parsons를 선택합니다.  Abbie는 동기화 전에는 AD DS 도메인에만 포함되어 있었던 사용자입니다. 다음과 같이 Abbie Parsons의 제품 라이선스를 업데이트합니다. 
     - 위치 = 영국
     - 제품 라이선스 = Enterprise Mobility + Security E5

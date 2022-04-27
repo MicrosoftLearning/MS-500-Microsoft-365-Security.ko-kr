@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 1a97ecb4ce509ea883ff4d29c52fcd13c841d034
-ms.sourcegitcommit: 25b9793190d40e69ed31815267fb6754397768bd
+ms.openlocfilehash: 62408c386d1a5a6a847c425c5d8adcc2070f44dd
+ms.sourcegitcommit: 45fca5e9e4dc6e398302227c4c04f451e025d9cb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "137943303"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "143961339"
 ---
 # <a name="module-1---lab-1---exercise-1---set-up-your-microsoft-365-tenant"></a>모듈 1 - 랩 1 - 연습 1 - Microsoft 365 테넌트 설정 
 
@@ -238,7 +238,7 @@ Microsoft 365를 설치할 때 여러 구성 단계를 수행하려면 Azure Act
 
 4. 페이지 오른쪽 위의 **감사 로그 검색** 창에서 **감사 설정** 을 선택하고 **조직 설정을 업데이트해야 합니다. 계속하시겠습니까?** 라는 질문에서 **예** 를 선택하여 업데이트를 확인합니다. 참고: MS 365 및 Office 365 Enterprise 조직에서는 ‘감사 로그’가 기본적으로 설정됩니다. 해당 페이지에 감사 로그를 '설정'하라는 메시지가 나타나지 않으면 '감사 로그'가 기본적으로 설정된 것입니다.
 
-5. 클라이언트 1 VM과 보안 및 규정 준수 센터는 열어 둡니다.
+5. **LON-DC1** VM과 보안 및 규정 준수 센터는 열어 둡니다.
 
 
 
