@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 0e7ea214bb259f3a0ea490ea606764c340d00a3f
-ms.sourcegitcommit: c203d5d5aaaf93bae4a8af2ae04b27f6314242c4
+ms.openlocfilehash: 9116378434fc989816737e35c4461b805d934e36
+ms.sourcegitcommit: f7046452e5ba445da2ec2ca1ccc7821c90ede5ef
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "137821038"
+ms.lasthandoff: 05/31/2022
+ms.locfileid: "145952992"
 ---
 # <a name="module-9---lab-1---exercise-1---initialize-compliance"></a>모듈 9 - 랩 1 - 연습 1 - 규정 준수 초기화 
 
@@ -14,7 +14,7 @@ ms.locfileid: "137821038"
 
 Adatum 파일럿 프로젝트의 다음 단계에서는 보안 및 준수 센터에 액세스하여 Holly Dickson의 보관 사서함을 활성화합니다.   
 
-1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)로 이동합니다. 왼쪽 창의 **정보 거버넌스** 를 클릭합니다(아래쪽의 **... 모두 표시** 를 클릭해야 이 항목이 표시될 수도 있음). **정보 거버넌스** 창에서 **보관** 탭을 클릭합니다. 
+1. [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)로 이동합니다. 왼쪽 창에서 **데이터 수명 주기 관리** 를 클릭합니다( **... 모두 표시** 를 클릭해야 이 항목이 표시될 수도 있음). **데이터 수명 주기 관리** 창에서 **보관** 탭을 클릭합니다. 
 
 3. **보관** 창에서 확인할 수 있듯이, Holly Dickson을 제외한 모든 사용자의 보관 사서함은 사용하도록 설정되어 있습니다. 이러한 보관 사서함은 이 교육 과정용으로 VM을 빌드할 때 사용하도록 설정되었으며, 보관 사서함의 사용자는 테넌트에서 미리 구성되었습니다. 그러나 Holly는 이전 랩에서 추가한 사용자이므로 보관 사서함은 기본적으로 사용하지 않도록 설정된 상태입니다.
 
