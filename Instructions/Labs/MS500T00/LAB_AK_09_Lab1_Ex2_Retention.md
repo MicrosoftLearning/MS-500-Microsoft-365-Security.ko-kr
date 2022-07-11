@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 796cfbbd80a9a47b0c3412799f9f1e1e3357d721
-ms.sourcegitcommit: c203d5d5aaaf93bae4a8af2ae04b27f6314242c4
+ms.openlocfilehash: 2d91a06ec9fa17a44af0933c1601abfffa24187f
+ms.sourcegitcommit: 042f2d80275d6d120a034be93973f99e1ae31aa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "137821047"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "146819537"
 ---
 # <a name="module-9---lab-1---exercise-2---configure-retention-tags-and-policies"></a>모듈 9 - 랩 1 - 연습 2 - 보존 태그 및 정책 구성  
 
@@ -82,13 +82,14 @@ ms.locfileid: "137821047"
 사용자 지정 개인 보존 태그를 비롯한 여러 보존 태그를 사용하여 새 보존 정책을 만들었습니다. 그리고 보존 정책을 통해 Alex와 Joni의 사서함에 보존 태그를 할당했습니다.
 
 
-### <a name="task-2--create-a-retention-policy-in-the-security-and-compliance-center"></a>작업 2 - 보안 및 준수 센터에서 보존 정책 만들기
+### <a name="task-2--create-a-retention-policy-in-the-microsoft-purview"></a>작업 2 - Microsoft Purview에서 보존 정책 만들기
 
-이 작업에서는 Adatum 파일럿 프로젝트의 일환으로 보안 및 준수 센터에서 보존 정책을 만듭니다. 이 정책은 마지막 수정 이후 7년 동안 모든 Exchange Online 사서함의 콘텐츠를 삭제하지 않고 보존하도록 설정합니다. 
+이 작업에서는 Adatum 파일럿 프로젝트의 일환으로 Microsoft Purview에서 보존 정책을 만듭니다. 이 정책은 마지막 수정 이후 7년 동안 모든 Exchange Online 사서함의 콘텐츠를 삭제하지 않고 보존하도록 설정합니다. 
 
-1. **Microsoft Edge** 에서 [**Microsoft 365 규정 준수**](https://compliance.microsoft.com/)로 이동합니다.  **Holly Dickson** 으로 로그인되어 있는지 확인합니다.
+1. **Microsoft Edge** 에서 [**Microsoft Purview**](https://compliance.microsoft.com/)로 이동합니다.  **Holly Dickson** 으로 로그인되어 있는지 확인합니다.
 
-2. 왼쪽 탐색 창에서 **정보 거버넌스** 를 클릭하고(먼저 **... 모두 표시** 를 클릭해야 할 수 있음) **보존 정책** 탭을 선택합니다.
+
+2. 왼쪽 탐색 창에서 **데이터 수명 주기 관리** 를 클릭하고(먼저 **... 모두 표시** 를 클릭해야 할 수 있음) **보존 정책** 탭을 선택합니다.
 
 3. **보존 정책** 탭에서 **+ 새 보존 정책** 을 클릭하여 새 보존 정책을 만드는 데 사용되는 마법사를 시작합니다.
 
@@ -106,7 +107,7 @@ ms.locfileid: "137821047"
 
 9. 클라이언트 1 VM이나 Microsoft Edge는 닫지 마세요. 다음 랩에서 사용할 수 있도록 웹 브라우저와 모든 탭은 열어 두시기 바랍니다.
 
-이 랩에서는 보안 및 준수 센터에서 새 보존 정책을 만들었습니다. 해당 정책은 마지막 수정 이후 7년 동안 모든 사서함의 Exchange 전자 메일을 모두 보존합니다.
+이 랩에서는 Microsoft PureView Portal에서 새 보존 정책을 만들었습니다. 해당 정책은 마지막 수정 이후 7년 동안 모든 사서함의 Exchange 메일을 모두 보존합니다.
 
  # <a name="end-of-lab"></a>랩 종료
  

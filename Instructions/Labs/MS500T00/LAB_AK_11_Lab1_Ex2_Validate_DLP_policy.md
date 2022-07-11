@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 0d8c501bb60591ceae43de0cca25eb0307ee3911
-ms.sourcegitcommit: 619124fc7aa1c770a67c77e6bbc16fa13e73f2f0
+ms.openlocfilehash: fbad1e8005568a331852266a7ad7047dd0c07253
+ms.sourcegitcommit: 042f2d80275d6d120a034be93973f99e1ae31aa6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/04/2022
-ms.locfileid: "137821095"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "146819543"
 ---
 # <a name="module-11---lab-1---exercise-2---test-dlp-policies"></a>모듈 11 - 랩 1 - 연습 2 - DLP 정책 테스트
 
@@ -28,8 +28,9 @@ ms.locfileid: "137821095"
 
     - 제목 추가: `DLP Policy Test`
 
-    - 메시지 영역: `This customer has social security number: 123-45-6789`를 입력합니다.
+    - 메시지 영역: `This customer has social security number: 489-36-8350`를 입력합니다.
 
+    > **참고**: 사용되는 SSN은 가상이며 데이터 손실 방지 정책에 대한 샘플 데이터의 공용 리포지토리에서 제공됩니다. 이러한 정책을 테스트할 때 개인 정보를 입력 **하지 마세요**.
 
 5. **보내기** 를 선택합니다.
 
@@ -41,7 +42,7 @@ ms.locfileid: "137821095"
 
     - 제목 추가: `multiple SSN test`
 
-    - 메시지 영역: `SSN = 123 45 6789 and another customer SSN 111 11 1111 and a third 222 22 2222`
+    - 메시지 영역: `SSN = 489-36-8350 and another customer SSN 514-14-8905 and a third 690-05-5315`
 
 8. **보내기** 를 선택합니다.
 
